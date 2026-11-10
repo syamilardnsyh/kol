@@ -75,8 +75,8 @@
     <!--begin::Fonts-->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
-      integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q="
+      href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.3.0/index.css"
+      integrity="sha256-5UwXtC6TaPHCAbVQ59waEAqOssHyhn/twyuLRRWszzo="
       crossorigin="anonymous"
       media="print"
       onload="this.media = 'all'"
@@ -86,7 +86,7 @@
     <!--begin::Third Party Plugin(OverlayScrollbars)-->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.11.0/styles/overlayscrollbars.min.css"
+      href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.16.0/styles/overlayscrollbars.min.css"
       crossorigin="anonymous"
     />
     <!--end::Third Party Plugin(OverlayScrollbars)-->
@@ -375,7 +375,7 @@
 
           <!--begin::Navbar Search-->
           <form
-            class="navbar-search d-none d-md-block ms-3"
+            class="navbar-search d-none d-xl-block ms-3"
             role="search"
             action="../pages/search-results.html"
           >
@@ -399,7 +399,7 @@
           <!--begin::End Navbar Links-->
           <ul class="navbar-nav ms-auto">
             <!--begin::Search (small screens: the field above is hidden, so link to the search page)-->
-            <li class="nav-item d-md-none">
+            <li class="nav-item d-xl-none">
               <a class="nav-link" href="../pages/search-results.html" aria-label="Search">
                 <i class="bi bi-search" aria-hidden="true"></i>
               </a>
@@ -644,7 +644,7 @@
                   class="user-image rounded-circle shadow"
                   alt="Alexander Pierce"
                 />
-                <span class="d-none d-md-inline">Alexander Pierce</span>
+                <span class="d-none d-xl-inline">Alexander Pierce</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                 <!--begin::User Image-->
@@ -1050,9 +1050,9 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="../charts/apexcharts.html" class="nav-link">
+                    <a href="../charts/chartjs.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
-                      <p>ApexCharts</p>
+                      <p>Chart.js</p>
                     </a>
                   </li>
                 </ul>
@@ -5374,7 +5374,9 @@
                     Every family Bootstrap generates for its theme colours, generated for the
                     palette — the same CSS-variable shape, so
                     <code data-astro-cid-ghactkgv>.bg-opacity-*</code>,
-                    <code data-astro-cid-ghactkgv>.link-underline-*</code> and friends compose.
+                    <code data-astro-cid-ghactkgv>.link-underline-*</code> and friends compose. The
+                    raw text and link swatches use a white background to demonstrate fixed palette
+                    colours in either theme.
                   </p>
                   <div class="table-responsive" data-astro-cid-ghactkgv>
                     <table
@@ -5657,46 +5659,46 @@
                             <code data-astro-cid-ghactkgv>.text-*</code>
                           </th>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-orange">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-orange">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-amber">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-amber">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-olive">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-olive">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-teal">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-teal">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-sky">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-sky">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-indigo">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-indigo">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-violet">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-violet">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-fuchsia">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-fuchsia">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-pink">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-pink">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-navy">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-navy">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-steel">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-steel">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-slate">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-slate">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-graphite">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-graphite">Aa</div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch fw-semibold text-midnight">Aa</div>
+                            <div class="lte-swatch bg-white fw-semibold text-midnight">Aa</div>
                           </td>
                         </tr>
                         <tr data-astro-cid-ghactkgv>
@@ -5751,7 +5753,7 @@
                             <code data-astro-cid-ghactkgv>.link-*</code>
                           </th>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-orange link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5760,7 +5762,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-amber link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5769,7 +5771,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-olive link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5778,7 +5780,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-teal link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5787,7 +5789,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-sky link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5796,7 +5798,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-indigo link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5805,7 +5807,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-violet link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5814,7 +5816,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-fuchsia link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5823,7 +5825,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-pink link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5832,7 +5834,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-navy link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5841,7 +5843,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-steel link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5850,7 +5852,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-slate link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5859,7 +5861,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-graphite link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -5868,7 +5870,7 @@
                             </div>
                           </td>
                           <td data-astro-cid-ghactkgv>
-                            <div class="lte-swatch">
+                            <div class="lte-swatch bg-white">
                               <a
                                 href="#"
                                 class="link-midnight link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -6094,7 +6096,7 @@
                     </button>
                     <button
                       type="button"
-                      class="btn btn-outline-secondary border-slate text-slate"
+                      class="btn btn-outline-secondary bg-white border-slate text-slate"
                       data-astro-cid-ghactkgv
                     >
                       Outline via utilities
@@ -6281,7 +6283,7 @@
 
     <!--begin::Third Party Plugin(OverlayScrollbars)-->
     <script
-      src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.11.0/browser/overlayscrollbars.browser.es6.min.js"
+      src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.16.0/browser/overlayscrollbars.browser.es6.min.js"
       crossorigin="anonymous"
     ></script>
     <!--end::Third Party Plugin(OverlayScrollbars)--><!--begin::Required Plugin(popperjs for Bootstrap 5)-->
@@ -6313,7 +6315,7 @@
 
         if (
           sidebarWrapper &&
-          OverlayScrollbarsGlobal?.OverlayScrollbars !== undefined &&
+          globalThis.OverlayScrollbarsGlobal?.OverlayScrollbars !== undefined &&
           !isMobile
         ) {
           OverlayScrollbarsGlobal.OverlayScrollbars(sidebarWrapper, {
@@ -6327,38 +6329,6 @@
       });
     </script>
     <!--end::OverlayScrollbars Configure-->
-    <!--begin::Charts follow the colour mode-->
-    <script>
-      // ApexCharts draws light-theme tooltips and axis text unless told otherwise,
-      // which is unreadable in dark mode (#6105). Give it the page's colour mode as
-      // a global default before any chart is created — this runs before the chart
-      // pages' own scripts — and keep every chart that has a `chart.id` in step
-      // when the mode changes (ColorMode, the OS in auto mode, or your own code).
-      (() => {
-        'use strict';
-        const mode = () =>
-          document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'dark' : 'light';
-        // `Apex` is ApexCharts' global-options object; it must exist before the library loads.
-        // theme.mode also sets a dark chart background — keep the card's instead.
-        // eslint-disable-next-line unicorn/no-global-object-property-assignment
-        globalThis.Apex ||= {};
-        const apex = globalThis.Apex;
-        apex.theme = { mode: mode() };
-        apex.chart = Object.assign(apex.chart || {}, { background: 'transparent' });
-        new MutationObserver(() => {
-          const next = mode();
-          apex.theme = { mode: next };
-          const instances = apex._chartInstances || [];
-          for (const { chart } of instances) {
-            chart.updateOptions({ theme: { mode: next } }, false, false);
-          }
-        }).observe(document.documentElement, {
-          attributes: true,
-          attributeFilter: ['data-bs-theme'],
-        });
-      })();
-    </script>
-    <!--end::Charts follow the colour mode-->
 
     <!--begin::Color Mode Toggle-->
     <!-- The light/dark/auto switcher ships in adminlte.js as the ColorMode
