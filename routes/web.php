@@ -17,3 +17,7 @@ Route::group(['middleware' => ['auth', 'check_role:admin,staff']], function (){
     Route::get('/dashboard', [DashboardController::class,'index']);
 }); 
 Route::get('/logout', [AuthController::class, 'logout']);
+
+Route::get('/calendar', function (){
+    return view('/calendar');
+});
